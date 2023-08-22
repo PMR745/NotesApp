@@ -44,6 +44,7 @@ button:hover {
   width: 30%;
   height: 100vh;
   border-right: 1px solid #ddd;
+  background-color: #f1f5f9;
 }
 
 .app-sidebar-header {
@@ -104,6 +105,7 @@ button:hover {
 .app-sidebar-note.active small {
   background: #08c;
   color: white;
+  border-radius: 7px;
 }
 
 /* NOTE EDITOR/PREVIEW (MAIN) STYLES */
@@ -111,6 +113,7 @@ button:hover {
 .app-main {
   width: 70%;
   height: 100vh;
+  background-color: #f7fafc;
 }
 
 .app-main-note-edit,
@@ -143,11 +146,16 @@ textarea {
   resize: none;
   font-size: inherit;
   font-family: inherit;
+  border-radius: 7px;
+  background-color: #f8fafc;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    5px 5px 16px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
 }
 
 .app-main-note-edit input {
   height: 50px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 /* Preview */
@@ -155,6 +163,7 @@ textarea {
   border-top: 1px solid #ddd;
   overflow-y: scroll;
   background: rgba(0, 0, 0, 0.02);
+  background-color: #f8fafc;
 }
 
 .preview-title {
